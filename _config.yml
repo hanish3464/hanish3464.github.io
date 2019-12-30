@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Hanish Computer Science"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Han Kim"
@@ -107,11 +107,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Han Kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Ajou Univ, Software Computer Engineering, senior
+                      2019.07.01 - 2019.12.20 Ideaconcert AI Research Intern
+                      2020.01.06 - NAVER WEBTOON AI Research Intern"
+  location         : "Suwon, Gyeonggi-do, Republic of Korea"
+  email            : "hanish-@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -127,7 +129,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+       url: "https://github.com/hanish3464"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
