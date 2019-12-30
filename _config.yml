@@ -19,9 +19,9 @@ locale                   : "en-US"
 title                    : "hanish github blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "Han Kim"
 description              : "An amazing website."
-url                      : "https://hanish346423.github.io"
+url                      : "https://hanish3464.github.io"
 baseurl                  : ""# the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -107,11 +107,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Han Kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Ajou Univ, Software Computer Engineering, Senior"
+  location         : "Suwon, Gyeonggi-do, Republic of Korea"
+  email            : "hanish-@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -290,12 +290,12 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share
+      share: true
       type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
       comments: # true
-      share: true: true
+      share: true
       related: true
