@@ -1,14 +1,26 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
 
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+# theme                  : "minimal-mistakes-jekyll"
 remote_theme : mmistakes/minimal-mistakes
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hanish github io"
+title                    : "hanish github blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Han Kim"
-description              : "Github Website."
+name                     : "Your Name"
+description              : "An amazing website."
 url                      : "https://hanish3464.github.io"
 baseurl                  : ""# the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,11 +107,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Han Kim"
+  name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : #"Ajou Univ, Software Computer Engineering, senior|2019.07.01 - 2019.12.20 Ideaconcert AI Research Intern|2020.01.06 - NAVER WEBTOON AI Research Intern"
-  location         : "Suwon, Gyeonggi-do, Republic of Korea"
-  email            : "hanish-@naver.com"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -115,7 +127,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/hanish3464"
+      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -278,5 +290,12 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true: true
       related: true
