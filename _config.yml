@@ -5,9 +5,9 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Hanish's Github IO"
+title: "hanish-touch-deep-with-torch"
 description: > # this means to ignore newlines until "email:"
-   Hanish's blog
+   Hanish AI daily log
 
 email: hanish-@naver.com
 #blog logo
