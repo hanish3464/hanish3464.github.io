@@ -17,8 +17,8 @@ float_logo: false # true, false (default)
 # blog cover
 cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
-name: 'Dreamgonfly'
-author: 'Dreamgonfly'
+name: 'hanish'
+author: 'hanish'
 author_image: "/assets/images/dragonfly_moon.jpg"
 
 paginate:	5
@@ -35,12 +35,12 @@ google_analytics: UA-91026007-2
 
 # social icons and sharing options
 social:
-  - icon:	twitter
+  - icon:	#twitter
     url:	#https://twitter.com/dirkfabisch
     desc: #Follow me on twitter
     share_url: #http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
+    share_title: #?text=
+    share_link: #"&amp;url="
 
   - icon:	#facebook
     url:	#https://facebook.com/???
