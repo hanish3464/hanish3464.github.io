@@ -53,8 +53,8 @@
         .menu-icon {
             display: block;
             float: right;
-            width: 36px;
-            height: 26px;
+            width: 15px;
+            height: 15px;
             line-height: 0;
             padding-top: 10px;
             text-align: center;
