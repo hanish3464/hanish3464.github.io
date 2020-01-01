@@ -5,17 +5,17 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "hanish CVDL"
+title: "hanish 블로그"
 description: > # this means to ignore newlines until "email:"
    Hanish AI daily log
 
 email: hanish-@naver.com
 #blog logo
-logo: "/assets/images/dragonfly_moon.jpg"
+logo: "/assets/images/temp2.jpeg"
 float_logo: false # true, false (default)
 
 # blog cover
-cover: "/assets/images/back.jpg"
+cover: "/assets/images/temp.jpeg"
 
 name: 'hanish'
 author: 'hanish'
