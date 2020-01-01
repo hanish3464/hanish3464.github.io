@@ -22,7 +22,7 @@
               <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ site.author }}</h4>
               on
               <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time>
-              {% if page.comments %} • <a href="https://dreamgonfly.github.io{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
+              {% if page.comments %} • <a href="https://hanish3464.github.io{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
               <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
             </div>
             <div style="text-align:center">
@@ -41,7 +41,7 @@
               <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
               <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
             </div>
-            {% if page.comments %} • <a href="https://dreamgonfly.github.io{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
+            {% if page.comments %} • <a href="https://hanish3464.github.io{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
           </div>
         </div>
         <br>
@@ -60,7 +60,7 @@
             {% for social in site.social %}
               {% if social.share_url != null %}
                 <a class="icon-{{ social.icon }}" href="{{ social.share_url }}{% if social.share_title %}{{ social.share_title }}{{page.title | cgi_escape}}{% endif %}{{ social.share_link }}{{site.url}}{{site.baseurl}}{{page.id}}"
-                  onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+                  onclick="window.open(this.href, '{{ social.icon }}-share', 'width=50,height=50');return false;">
                 <i class="fa fa-{{ social.icon }}"></i><span class="hidden">{{ social.icon }}</span>
                 </a>
               {% endif %}
