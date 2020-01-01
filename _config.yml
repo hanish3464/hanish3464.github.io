@@ -5,7 +5,7 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "hanish-touch-deep-with-torch"
+title: "hanish CVDL"
 description: > # this means to ignore newlines until "email:"
    Hanish AI daily log
 
