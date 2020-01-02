@@ -26,21 +26,41 @@ layout: default
       <a href={{ "/about/" | prepend: site.baseurl }}>About</a>
     </div>
 			  
-<header class="site-category">
-  <ul>
-    
-    {% assign pages_list = site.pages %}
-    {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "category" %}
-          <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
-          href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-    
-</ul>
-</header>
+    <div class="site-category">
+    <ul class='cat1'>
+      <li><a href="/">Home</a></li>
+      <li><a href="/">Python</a>
+        <ul>
+            <li><a href="/Python/Crawler">Crawler</a></li>
+            <li><a href="/Python/Django">Django</a></li>
+            <li><a href="/Python/Tensorflow">Tensorflow</a></li>
+        </ul>
+      </li>
+
+      <li><a href="/">Data Science</a>
+        <ul>
+          <li><a href="/DS/ML">Machine Learning</a></li>
+        </ul>
+      </li>
+
+      <li><a href="/">Development Enviroment</a>
+        <ul>
+            <li><a href="/DE/Github Blog">Github Blog</a></li>
+            <li><a href="/DE/Git">Git</a></li>
+            <li><a href="/DE/Docker">Docker</a></li>
+            <li><a href="/DE/Ubuntu">Ubuntu</a></li>
+            <li><a href="/DE/Java">Java</a></li>
+        </ul>
+      </li>
+
+      <li><a href="/">Android</a>
+        <ul>
+          <li><a href="/Android/Android">Android</a></li>
+        </ul>
+      </li>
+
+    </ul>
+  </div>
 
 <main class="content" role="main">
 
