@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Profile
-permalink: /profile/
+title: About
+permalink: /about/
 ---
 
 # 소개
