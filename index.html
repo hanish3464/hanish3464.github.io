@@ -45,47 +45,10 @@ layout: default
 						<li><a href="/DS/ADsP">ADsP</a></li>
 					</ul>
 				</li>
-				<li><a href="/">Data Base</a>
-					<ul>
-						<li><a href="/DB/MYSQL">MYSQL</a></li>
-					</ul>
-				</li>
-
-				<li><a href="/">Development Enviroment</a>
-					<ul>
-						  <li><a href="/DE/Github Blog">Github Blog</a></li>
-						  <li><a href="/DE/Git">Git</a></li>
-						  <li><a href="/DE/Docker">Docker</a></li>
-						  <li><a href="/DE/Ubuntu">Ubuntu</a></li>
-						  <li><a href="/DE/Java">Java</a></li>
-					</ul>
-				</li>
-
-				<li><a href="/">Android</a>
-					<ul>
-						<li><a href="/Android/Android">Android</a></li>
-					</ul>
-				</li>
-
+				
 			</ul>
 		</div>
 
-</header>
-
-<header class="site-category">
-  <ul>
-    
-    {% assign pages_list = site.pages %}
-    {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "category" %}
-          <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
-          href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-    
-</ul>
 </header>
 
 <main class="content" role="main">
