@@ -15,7 +15,7 @@ have worked in the domain of comics and webtoon.
 
 ## 2. WORK EXPERIENCE
 
-### [Idea Concert](http://www.ideaconcert.com/)(2019.07.01 - )
+### [Idea Concert](http://www.ideaconcert.com/) (2019.07.01 - )
 
 #### AI Research Engineer Intern 
 
@@ -24,7 +24,7 @@ have worked in the domain of comics and webtoon.
 - Text detection based on [CRAFT](https://arxiv.org/abs/1904.01941) and implemented train code
 - Hangul text recognition of character unit with CRAFT text detector 
 
-### [NAVER WEBTOON Corp](https://webtoonscorp.com/)(2020.01.06 - )
+### [NAVER WEBTOON Corp](https://webtoonscorp.com/) (2020.01.06 - )
 
 #### AI Research Engineer Intern 
 
@@ -32,6 +32,7 @@ have worked in the domain of comics and webtoon.
 ## 3. EDUCATION
 
 UNIVERSITY OF AJOU
+
 *College of Information*
 - Bachelor of Science degree expected in Computer Science 
 
