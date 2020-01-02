@@ -13,7 +13,7 @@ email: hanish-@naver.com
 #blog logo
 logo: "/assets/images/intro.jpg"
 float_logo: false # true, false (default)
-
+permalink: /:categories/:title/
 # blog cover
 cover: "/assets/images/back.jpg"
 
