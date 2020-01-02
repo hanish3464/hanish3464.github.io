@@ -234,6 +234,20 @@
         }
     }
 }
+
+ .site-category{
+    background: $brand-color;
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+    margin:0 auto;
+    padding:0;
+    font-size:14px;
+    text-align: center;
+    clear:left;
+    display: inline-block;
+    width: 100%;
+    }
+    
  .site-category ul{
     //background: rgb(109,109,109);
     height:50px;
