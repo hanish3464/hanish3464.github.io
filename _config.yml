@@ -5,9 +5,9 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "hanish 블로그"
+title: "hanish Computer Science 블로그"
 description: > # this means to ignore newlines until "email:"
-   Hanish AI daily log
+   Hanish Computer Vision & Deep Learning
 
 email: hanish-@naver.com
 #blog logo
@@ -19,7 +19,7 @@ cover: "/assets/images/back.jpg"
 
 name: 'hanish'
 author: 'hanish'
-author_image: "/assets/images/dragonfly_moon.jpg"
+author_image: "/assets/images/intro.jpg"
 
 paginate:	5
 
