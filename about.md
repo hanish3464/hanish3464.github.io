@@ -6,8 +6,8 @@ permalink: /about/
 
 ## 1. INTEREST and SKILLS
 
-interested in Machine Learning and Computer Vision, concretely object detection, OCR, GAN.
-have worked in the domain of comics and webtoon.
+- interested in Machine Learning and Computer Vision, concretely object detection, OCR, GAN.
+- have worked in the domain of comics and webtoon.
 
 * Programming Language : Python, Java, C, C++ 
 * Framework : pytorch, tensorflow, opencv
@@ -31,9 +31,7 @@ have worked in the domain of comics and webtoon.
 
 ## 3. EDUCATION
 
-UNIVERSITY OF AJOU
-
-*College of Information*
+UNIVERSITY OF AJOU, *College of Information*
 - Bachelor of Science degree expected in Computer Science 
 
 
