@@ -16,7 +16,8 @@ float_logo: false # true, false (default)
 favicon: favicon.ico
 # blog cover
 cover: "/assets/images/back.jpg"
-
+category_dir: category/
+tag_dir: tag/
 name: 'hanish'
 author: 'hanish'
 author_image: "/assets/images/intro.jpg"
