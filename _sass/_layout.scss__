@@ -8,8 +8,9 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
-    
-    .site-category{
+
+}
+.site-category{
     background: $brand-color;
     border-top: 1px solid $border-color;
     border-bottom: 1px solid $border-color;
@@ -102,9 +103,6 @@
     color:#ffffff;
     text-decoration:none;
     }
-
-
-}
 
 
 }
