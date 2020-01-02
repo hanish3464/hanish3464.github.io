@@ -5,7 +5,7 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "hanish Computer Science 블로그"
+title: "hanish 블로그"
 description: > # this means to ignore newlines until "email:"
    Hanish Computer Vision & Deep Learning
 
