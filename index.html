@@ -25,16 +25,8 @@ layout: default
       {% endfor %}
       <a href={{ "/profile/" | prepend: site.baseurl }}>Profile</a>
     <div class="menu-bars">
-      {% for social in site.social %}
-        {% if social.url %}
-            <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}">
-              <i class="fa fa-{{ social.icon }}"></i>
-            </a>
-            &nbsp;&nbsp;·&nbsp;&nbsp;
-        {% endif %}
-      {% endfor %}
       <a href={{ "/opencv/" | prepend: site.baseurl }}>openCV</a>
-      <a href={{ "/machine_learning/" | prepend: site.baseurl }}>machine_learning</a>
+      <a href={{ "/machine_learning/" | prepend: site.baseurl }}>Machine Learning</a>
       <a href={{ "/GAN/" | prepend: site.baseurl }}>GAN</a>
     </div>
 </header>
