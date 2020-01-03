@@ -2,7 +2,6 @@
 layout: page
 title: Profile
 permalink: /profile/
-image: ./assets/images/profile.png
 ---
 
 ## 1. INTEREST and SKILLS
