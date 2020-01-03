@@ -24,55 +24,20 @@ layout: default
         {% endif %}
       {% endfor %}
       <a href={{ "/profile/" | prepend: site.baseurl }}>Profile</a>
+    <div class="menu-bars">
+      {% for social in site.social %}
+        {% if social.url %}
+            <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}">
+              <i class="fa fa-{{ social.icon }}"></i>
+            </a>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
+        {% endif %}
+      {% endfor %}
       <a href={{ "/opencv/" | prepend: site.baseurl }}>openCV</a>
+      <a href={{ "/machine_learning/" | prepend: site.baseurl }}>machine_learning</a>
+      <a href={{ "/GAN/" | prepend: site.baseurl }}>GAN</a>
     </div>
 </header>
-			  
-<header class="site-category">
-			<ul class='cat1'>
-				<li><a href="/">Home</a></li>
-				<li><a href="/">Python</a>
-					<ul>
-							<li><a href="/Python/Crawler">Crawler</a></li>
-							<li><a href="/Python/Django">Django</a></li>
-							<li><a href="/Python/Tensorflow">Tensorflow</a></li>
-					</ul>
-				</li>
-
-				<li><a href="/">Data Science</a>
-					<ul>
-						<li><a href="/DS/Statistics">Statistics</a></li>
-						<li><a href="/DS/R">R programming</a></li>
-						<li><a href="/DS/ML">Machine Learning</a></li>
-						<li><a href="/DS/ADsP">ADsP</a></li>
-					</ul>
-				</li>
-				<li><a href="/">Data Base</a>
-					<ul>
-						<li><a href="/DB/MYSQL">MYSQL</a></li>
-					</ul>
-				</li>
-
-				<li><a href="/">Development Enviroment</a>
-					<ul>
-						  <li><a href="/DE/Github Blog">Github Blog</a></li>
-						  <li><a href="/DE/Git">Git</a></li>
-						  <li><a href="/DE/Docker">Docker</a></li>
-						  <li><a href="/DE/Ubuntu">Ubuntu</a></li>
-						  <li><a href="/DE/Java">Java</a></li>
-					</ul>
-				</li>
-
-				<li><a href="/">Android</a>
-					<ul>
-						<li><a href="/Android/Android">Android</a></li>
-					</ul>
-				</li>
-
-			</ul>
-		</div>
-
-</header>    
 
 <main class="content" role="main">
 
