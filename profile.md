@@ -3,7 +3,7 @@ layout: page
 title: Profile
 permalink: /profile/
 ---
-<img width="300" height="300" src="./assets/images/profile.png">
+
 ## 1. INTEREST and SKILLS
 
 - interested in Machine Learning and Computer Vision, concretely object detection, OCR, GAN.
