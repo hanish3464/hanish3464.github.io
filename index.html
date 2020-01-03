@@ -23,14 +23,18 @@ layout: default
             &nbsp;&nbsp;·&nbsp;&nbsp;
         {% endif %}
       {% endfor %}
-      <a href={{ "/profile/" | prepend: site.baseurl }}><img src="assets/images/profile.png"> Profile</a>
+      <a href={{ "/profile/" | prepend: site.baseurl }}>Profile</a>
     <div class="menu-bars">
       &nbsp;|&nbsp;
-      <a href={{ "/machine_learning/" | prepend: site.baseurl }}><img src="assets/images/machine_learning.png"></a>
+      <a href={{ "/category/machine_learning/" | prepend: site.baseurl }}><img src="assets/images/ml.png">Machine Learning</a>
       &nbsp;&nbsp;|&nbsp;&nbsp;
-      <a href={{ "/opencv/" | prepend: site.baseurl }}><img src="assets/images/opencv.png"></a>
+      <a href={{ "/category/opencv/" | prepend: site.baseurl }}><img src="assets/images/opencv.png">OpenCV</a>
       &nbsp;&nbsp;|&nbsp;&nbsp;
-      <a href={{ "/pytorch/" | prepend: site.baseurl }}><img src="assets/images/pytorch.png"></a>
+      <a href={{ "/category/pytorch/" | prepend: site.baseurl }}><img src="assets/images/pytorch.png">Pytorch</a>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href={{ "/category/algorithm/" | prepend: site.baseurl }}>Algorithm</a>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href={{ "/category/gan/" | prepend: site.baseurl }}>GAN</a>
       &nbsp;|&nbsp;
     </div>
 </header>
