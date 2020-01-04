@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: page
 title: ML 
 permalink: '/ML'
 ---
