@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ML 
-permalink: 'category/ML'
+permalink: 'category/ML/'
 ---
 
 ## 1. INTEREST and SKILLS
