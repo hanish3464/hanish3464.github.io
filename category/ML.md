@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ML 
+title: Machine Learning 
 permalink: 'category/ML/'
 ---
 
