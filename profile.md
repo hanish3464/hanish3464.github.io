@@ -4,6 +4,8 @@ title: Profile
 permalink: /profile/
 ---
 
+![ ](https://user-images.githubusercontent.com/51018265/71775988-bda89f80-2fcc-11ea-995b-64abf0c50cbb.png)
+
 ## 1. INTEREST and SKILLS
 
 - interested in Machine Learning and Computer Vision, concretely object detection, OCR, GAN.
