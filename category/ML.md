@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ML 
-permalink: '/ML'
+permalink: 'category/ML'
 ---
 
 sample
