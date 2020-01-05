@@ -4,7 +4,7 @@ title: Profile
 permalink: /profile/
 ---
 
-<img src="https://user-images.githubusercontent.com/51018265/71775988-bda89f80-2fcc-11ea-995b-64abf0c50cbb.png" width="200" height="200">
+<img src="https://user-images.githubusercontent.com/51018265/71775988-bda89f80-2fcc-11ea-995b-64abf0c50cbb.png" width="100" height="132">
 
 ## 1. INTEREST and SKILLS
 
