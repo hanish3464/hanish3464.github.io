@@ -4,11 +4,6 @@ title: ML
 permalink: 'category/ML/'
 ---
 
-## 1. INTEREST and SKILLS
+### [기계학습(ML) - Week 1](https://hanish3464.github.io/ml/2018/07/30/ml-2.html)
 
-- interested in Machine Learning and Computer Vision, concretely object detection, OCR, GAN.
-- have worked in the domain of comics and webtoon.
-* Programming Language : Python, Java, C, C++ 
-* Framework : pytorch, tensorflow, opencv
-* etc: linux(centOS, Ubuntu)
-
+### [기계학습(ML) - Week 0](https://hanish3464.github.io/ml/2018/07/23/ml-1.html)
