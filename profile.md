@@ -24,6 +24,7 @@ permalink: /profile/
 
  - ### [NAVER WEBTOON Corp](https://webtoonscorp.com/) (2020.01.06 - )
     - #### AI Research Engineer Intern 
+      - Webtoon Data Preprocessor of photoshop file based on image classification
 
 
 ## 3. EDUCATION
